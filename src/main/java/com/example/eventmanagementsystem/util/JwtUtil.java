@@ -6,6 +6,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
+/**
+ * JWT token management class
+ */
 @Component
 public class JwtUtil {
     private static final String SECRET_KEY = "secret";
